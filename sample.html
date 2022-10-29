@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial_scale=1">
+        <title>India</title>`
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                line-height: 1cm;
+            }
+            #header{
+                background: black;
+                font-family: Arial, Helvetica, sans-serif;
+                height: 90px;
+            }
+            #contentwrapper{
+                float: left;
+                width: 100%;
+            }
+            #contentcolumn{
+                background-image: url("india.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                margin: 0 230px 0 230px;
+            }
+            #leftcolumn{
+                float:left;
+                width: 230px;
+                margin-left: -100%;
+                background: hsl(25, 94%, 50%);
+            }
+            #rightcolumn{
+                float: left;
+                width: 230px;
+                height: 200%;
+                margin-left: -230px;
+                background: green;
+            }
+            .innertext{
+                margin: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: black;
+            }
+            #footer{
+                clear:left;
+                width: 100%;
+                background: black;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                padding: 4px;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: black;
+            }
+            li{
+                float: left;
+                border-right: 1px solid grey;
+            }
+            li:last-child{
+                border-right: none;
+            }
+            li a{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover:not(.active){
+                background-color: darkgray;
+            }
+            .active{
+                background-color: lightblue;
+            }
+
+            @media(max-width: 840px){
+                #lefftcolumn{
+                    margin-left: -100%;
+                }
+                #rightcolumn{
+                    float: none;
+                    width: 100%;
+                    margin-left: 0;
+                    clear: both;
+                }
+                #contentcolumn{
+                    margin-right: 0;
+                }
+            }
+
+            @media(max-width:600px){
+                #leftcolumn{
+                    float: none;
+                    width: 100%;
+                    clear: both;
+                    margin-left: 0;
+                }
+                #contentcolumn{
+                    margin-left: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <ul style="display:inline;">
+                    <li><a class="active" href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div id="contentwrapper">
+                <div id="contentcolumn">
+                    <div class="innertext">
+                        <b><u>INDIA:</u></b><br> India, country that occupies the greater part of South Asia. Its capital is New Delhi, built in the 20th century just south of the historic hub of Old Delhi to serve as India’s administrative centre. Its government is a constitutional republic that represents a highly diverse population consisting of thousands of ethnic groups and likely hundreds of languages. With roughly one-sixth of the world’s total population, India is the second most populous country, after China.
+It is known from archaeological evidence that a highly sophisticated urbanized culture—the Indus civilization—dominated the northwestern part of the subcontinent from about 2600 to 2000 BCE. From that period on, India functioned as a virtually self-contained political and cultural arena, which gave rise to a distinctive tradition that was associated primarily with Hinduism, the roots of which can largely be traced to the Indus civilization. Other religions, notably Buddhism and Jainism, originated in India—though their presence there is now quite small—and throughout the centuries residents of the subcontinent developed a rich intellectual life in such fields as mathematics, astronomy, architecture, literature, music, and the fine arts.
+                    </div>
+                </div>
+            </div>
+            <div id="leftcolumn">
+                <div class="innertext">
+                    <b><u>PLEDGE:</u></b><br>India is my country and all Indians are my brothers and sisters. I love my country, and I am proud of its rich and varied heritage. I shall always strive to be worthy of it. I shall give to my parents, teachers, and all the elders respect and treat everyone with courtesy. To my country and my people. I pledge my devotion. In their well being and prosperity alone lies my happiness. Jai Hind.
+                </div>
+            </div>
+            <div id="rightcolumn">
+                <div class="innertext">
+                    <b><u>ANTHEM:</u></b><br>Jana gana mana adhinaayak jaya hai
+                    Bhaarat bhagya vidhaata
+                    Panjaab, sindh, gujraat, maraatha
+                    Draavid utkal banga
+                    Vindya, himaachal, yamuna, ganga
+                    Utchchhal jaldhi taranga
+                    Tab shubh naame jaage
+                    Tab shubh aashish maage
+                    Gaahe tab jay gaatha
+                    Jana gana mangal daayak jay he
+                    Bhaarat bhagya vidhaata
+                    Jaya hey...
+                    Jaya hey...
+                    Jaya hey...
+                    Jaya jaya jaya jaya hey...
+                </div>
+            </div>
+            <div id="footer">Proud To Be Indan</div>
+        </div>
+    </body>
+</html>
